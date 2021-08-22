@@ -13,7 +13,11 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "symfony/psr-http-message-bridge": "^2.1",
+        "zendframework/zend-diactoros": "^2.2",
+        "stevebauman/location": "^5.1",
+        "cornford/googlmapper": "2.*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

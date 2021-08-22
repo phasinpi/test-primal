@@ -15,6 +15,9 @@
         <!-- JS -->
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
+        <script src="http://maps.google.com/maps/api/js"></script>
+  	    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.24/gmaps.js"></script>
+
         <!-- Font awesome icon -->
         <script src="https://kit.fontawesome.com/9e0f67df40.js" crossorigin="anonymous"></script>
 

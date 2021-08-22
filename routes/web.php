@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\ProductController;
+use App\Http\Controllers\Web\EarthquakeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,8 @@ use App\Http\Controllers\Web\ProductController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/earthquake', [EarthquakeController::class, 'index']);
 
 Route::resources([
     'product' => ProductController::class,
